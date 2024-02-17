@@ -5,10 +5,12 @@ import './Header.css'
 function Header() {
     return (
         <div className='header-t'>
-            <FontAwesomeIcon icon="fas fa-phone-alt" className='phone-icon'/>
-            <span>Help line 2547250101898</span>
-            <p>Login</p>
-            <p>Registration</p>
+            <a href="#">
+                <FontAwesomeIcon icon="fas fa-phone-alt" className='phone-icon'/>
+            </a>
+            <a href="#"><span>Help line 2547250101898</span></a>
+            <a href="#">Login</a>
+            <a href="#">Registration</a>
             
         </div>
 

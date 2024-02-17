@@ -16,3 +16,8 @@
     margin-top: 3px;
 }
 
+.header-t a {
+    text-decoration: none;
+    color: gray;
+}
+

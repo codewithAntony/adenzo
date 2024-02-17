@@ -6,12 +6,14 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 import Logo from './Components/Logo/Logo';
 import Header from './Components/Header/Header'
+import Categories from './Components/Categories/Categories';
 
 function App() {
   return (
     <div className="app">
       <Header />
       <Logo />
+      <Categories />
     </div>
     
   )
